@@ -1,6 +1,6 @@
 # BetterGPT
 
-BetterGPT is a Manifest V3 Chrome extension that injects a native-looking BetterGPT entry into ChatGPT's sidebar, directly below Codex when that navigation item is detected.
+BetterGPT is a Manifest V3 Chrome extension that injects a native-looking BetterGPT entry into ChatGPT's top right, right next to the **"Upgrade plan"** button, when that navigation item is detected.
 
 ## Load locally
 
@@ -26,6 +26,6 @@ BetterGPT is a Manifest V3 Chrome extension that injects a native-looking Better
 - Reduced-motion support and optional accessibility tweaks (high contrast, focus rings, dyslexia-friendly font, adjustable line height).
 - Optional native UI tweaks (hides ChatGPT's own disclaimer text, gently autofocuses the composer).
 
-Every toggle and setting in the panel is wired to a real effect — nothing in the UI is decorative.
+Every toggle and setting in the panel is wired to a real effect, nothing in the UI is decorative.
 
 The extension does not collect analytics or upload conversations, prompts, images, settings, or backups. Desktop notifications are generated locally by the extension's own background script and never leave your device.
